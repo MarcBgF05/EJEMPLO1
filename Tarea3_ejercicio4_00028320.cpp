@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
    string prod; int c; float pr,Totg; 
-   cout<<"Porfavor digita lo siguiente acerca del prodcuto comprado \n";
+   cout<<"Porfavor digita lo siguiente acerca del producto comprado \n";
    cout<<"nombre:           "<<endl;cin>>prod; 
    cout<<"precio:           "<<endl;cin >>pr; 
    cout<<"cantidad:         "<<endl;cin >>c;
