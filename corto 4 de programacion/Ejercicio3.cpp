@@ -4,7 +4,7 @@ int matriz(int numeros[][5] , int estudiasntes, int notas  );
 int calcular(int numeros[][5],int estudiantes, int notas); 
 int main(){
 	     int n; 
-		int numeros[n][5],estudiantes,notas;
+		 int numeros[n][5],estudiantes,notas;
 		float acum=0, prom=0; 
 		matriz(numeros,estudiantes,notas); 
 		calcular(numeros, estudiantes, notas); 
@@ -31,6 +31,8 @@ int matriz(int numeros[][5], int estudiantes, int notas  ){
 	}// for2
 	cout<<endl;
  
+
+
 }	// matriz
 int calcular(int numeros[][5],int estudiantes, int notas) {
 	 int n; 
